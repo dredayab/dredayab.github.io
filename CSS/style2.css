@@ -1,0 +1,295 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	background-color: #7B958F;
+}
+img {
+  max-width: 100%;
+  display: block;
+}
+
+h3 {
+	font-size: 18px;
+	font-family: 'Bree Serif', sans-serif;
+	color: #464646;
+	width: 155px;
+}
+
+p {
+	color:#464646;
+}
+.container {
+  background-color: #114035;
+  background-size: 390px, 100px;
+  background-repeat: no-repeat;
+  height: 1000px;
+  width: 390px;
+	
+	
+}
+
+
+.dropdown:active {
+   max-height: 400px;
+}
+
+li:active {
+	max-height: 400px;
+	
+}
+a, button {
+	font-family: "Raleway", sans-serif;
+	color: #114035;
+	
+}
+
+h2 { 
+	font-family: 'Bree Serif', sans-serif;
+	color: #FE4E4E;
+	font-size: 22px;
+	width: 175px;
+	transform: translateY(5px);
+
+}
+
+h3, a {
+	font-family: 'Bree Serif', sans-serif;
+	color: #464646;
+	
+}
+
+/*Menu Dropdown******************************************/
+.dashes {
+	position: relative;
+	z-index: 4;
+}
+
+
+.dropdown button:focus {
+	background-color: white;
+}
+
+ul {
+	background: white;
+	height: 175px;
+	width: 200px;
+	text-align: center;
+	list-style: none;
+	text-decoration: none;
+	padding-top: 25px;
+	padding-right: 45px;
+	border-top-right-radius: 15px;
+	border-bottom-right-radius: 15px;
+	border-bottom-left-radius: 15px;
+	position: absolute;
+	opacity: 0;
+	pointer-events: none;
+	transform: translate(25px, 41px);
+	z-index: 3;
+	transition: all 0.4s ease-in;
+}
+
+.dropdown a {
+	
+	text-decoration: none;
+}
+.dropdown button {
+	border: none;
+	background:none;
+	transform: translate(25px, 45px);
+	
+}
+
+.dropdown a:hover {
+	color: #FE4E4E;
+	font-family: "Raleway SemiBold", sans-serif;
+	font-size: 18px;
+}
+
+.dashes button:focus + ul {
+	opacity: 1;
+	pointer-events: all;
+	
+	
+}
+
+a:focus {
+	pointer-events: all;
+}
+/* Search Bar **************************************/ 
+
+
+.Top-logo {
+  transform: translate(120px, 10px);
+  float: inherit;
+}
+.search-bar {
+  text-decoration-color: #114035;
+}
+input[type=text] {
+  transform: translate(-15px, 40px);
+  height: 31px;
+  width: 97px;
+  background-color: white;
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
+  color: #114035;
+  border: none;
+  padding-left: 10px;
+  position:absolute;	
+  z-index: 2; 
+}
+
+/* When the input field gets focus, change its width to 100% */
+input[type=text]:focus {
+  width: 390px;
+  color: #114035;
+
+ 
+  
+	
+}
+
+
+/* Search Bar End **********************************/
+
+.Tan-search {
+	width: 300px;
+	height: 32px;
+	background-color: #806143;
+	transform:translate(75px, 40px);
+	position: absolute;
+	z-index: 1;
+	
+	
+}
+.cat-heading{
+	transform: translate(25px, 85px);
+	width: 125px;
+	
+}
+
+.cat-heading2 {
+	transform: translate(25px, 85px);
+	
+}
+.container2 {
+	transform:translate(-15px, 105px);
+	height:960px;
+	width: 390px;
+}
+.white-box {
+	background-color: white;
+	height: 204;
+	padding: 25px;
+	padding-bottom: 10px;
+	
+}
+
+.white-box2 {
+	background-color: white;
+	height: 204;
+	
+	
+}
+.green-box {
+	background-color: #A3C1BA;
+	height: 204;
+	padding: 25px;
+	padding-bottom: 10px;
+}
+
+.green-box2 {
+	background-color: #A3C1BA;
+	height: 995px;
+	padding: 25px;
+	padding-bottom: 10px;
+	transform: translateY(-33px);
+}
+.recipe-text {
+	
+	padding-top: 15px;
+	
+}
+
+.mac2 {
+	width: 100%;
+	transform:translateY(-32px)
+	
+}
+.heart-icon {
+	
+	float:right;
+	transform: translate(170px, -20px);
+}
+.print-icon {
+	
+	float:right;
+	transform: translate(190px, -25px);
+}
+
+.heart-icon:focus {
+	color: #FE4E4E;
+}
+.list-name {
+	height: 35px;
+}
+.favorite {
+	transform: translate(250px,-30px);
+}
+
+.minus {
+	transform: translate(295px, -49px);
+	
+}
+hr{
+	color: #114035;
+}
+
+.back {
+	text-decoration: none;
+	color: #FE4E4E;
+	transform: translate(135px, 10px);
+}
+
+.back a:hover {
+	color: #FE4E4E;
+}
+.back a {
+	text-decoration: none;
+}
+.Food-gallery {
+  float: left;
+}
+.column {
+  transform: translate(-14px, 100px);
+}
+.column2 {
+  transform: translate(180px, -517px);
+}
+
+.column:hover {
+	
+	opacity: 75%;
+}
+.column2:hover {
+	
+	opacity: 75%;
+}
+.footer {
+  transform: translate(0px, -560px);
+	height:200px;
+}
+.row {
+  float: left;
+  transform: translate(250px, -600px);
+}
+
+
+.contact {
+	transform:translateY(80px);
+}
+
+.row {
+	transform: translate(245px, 40px);
+}

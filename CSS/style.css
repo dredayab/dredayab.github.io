@@ -1,0 +1,154 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	background-color: #A3C1BA;
+}
+img {
+  max-width: 100%;
+  display: block;
+}
+.container {
+  background-color: #114035;
+  background-size: 390px, 100px;
+  background-repeat: no-repeat;
+  height: 844px;
+  width: 390px;
+}
+
+
+a, button {
+	font-family: "Raleway", sans-serif;
+	color: #114035;
+	
+}
+
+a:focus {
+	pointer-events: all;
+}
+/*Menu Dropdown******************************************/
+.dashes {
+	position: relative;
+	z-index: 4;
+}
+
+
+.dropdown button:focus {
+	background-color: white;
+}
+
+ul {
+	background: white;
+	height: 175px;
+	width: 200px;
+	text-align: center;
+	list-style: none;
+	text-decoration: none;
+	padding-top: 25px;
+	padding-right: 45px;
+	border-top-right-radius: 15px;
+	border-bottom-right-radius: 15px;
+	border-bottom-left-radius: 15px;
+	position: absolute;
+	opacity: 0;
+	pointer-events: none;
+	transform: translate(25px, 41px);
+	z-index: 3;
+	transition: all 0.4s ease;
+}
+
+.dropdown a {
+	
+	text-decoration: none;
+}
+.dropdown button {
+	border: none;
+	background:none;
+	transform: translate(25px, 45px);
+	
+}
+
+.dropdown a:hover {
+	color: #FE4E4E;
+	font-family: "Raleway SemiBold", sans-serif;
+	font-size: 18px;
+}
+
+.dashes button:focus + ul {
+	opacity: 1;
+	pointer-events: all;
+	
+	
+}
+/* Search Bar **************************************/ 
+
+
+.Top-logo {
+  transform: translate(120px, 10px);
+  float: inherit;
+}
+.search-bar {
+  text-decoration-color: #114035;
+}
+input[type=text] {
+  transform: translate(-15px, 40px);
+  height: 31px;
+  width: 97px;
+  background-color: white;
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
+  color: #114035;
+  border: none;
+  padding-left: 10px;
+  position:absolute;	
+  z-index: 2; 
+}
+
+/* When the input field gets focus, change its width to 100% */
+input[type=text]:focus {
+  width: 390px;
+  color: #114035;
+
+ 
+  
+	
+}
+
+/* Search Bar End **********************************/
+
+.Tan-search {
+	width: 300px;
+	height: 32px;
+	background-color: #806143;
+	transform:translate(75px, 40px);
+	position: absolute;
+	z-index: 1;
+	
+	
+}
+
+.Food-gallery {
+  float: left;
+}
+.column {
+  transform: translate(-14px, 40.7px);
+}
+
+.column:hover {
+	
+	opacity: 50%;
+}
+.column2 {
+  transform: translate(180px, -577px);
+}
+
+.column2:hover {
+	opacity: 75%;
+}
+.footer {
+  transform: translate(0px, -560px);
+  height: 200px;
+}
+.row {
+  float: left;
+  transform: translate(50px, 90px);
+}
